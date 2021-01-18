@@ -1,0 +1,374 @@
+.headercontainer{
+  background-color:#262626;
+  width: auto;
+  height: 90px;
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+.secheadercontainer{
+  Height:10px;
+  background-color: #FF1300;
+  margin-bottom: 10px;
+}
+.thirheadercontainer{
+  Height:35px;
+  background-color: #4D4D4D;
+}
+@media screen and (max-width: 1299px) {
+  .headercontainer{
+    font-size: 40px;
+  }
+}
+a
+{
+    text-decoration: none;
+    color:  #FF1300;
+}
+body{
+  background-color:White;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#myInput{
+  width:700px;
+  Height:40px;
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1299px) {
+  #myInput{
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1175px) {
+  #myInput{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #myInput{
+    width: 100px;
+  }
+}
+#index{
+  margin-left:25px;
+  margin-top: 50px;
+  color:white;
+}
+#shop{
+  margin-left:17px;
+  margin-top: 50px;
+  color: white;
+}
+#contact{
+  margin-left:40px;
+  margin-top: 40px;
+  color:white;
+
+}
+#logo{
+  height: 80px;
+  width: 95px;
+  padding-left: 30px;
+  position:absolute;
+  margin-top:-10px;
+}
+#menu{
+  padding-top: 15px;
+}
+#h1{
+  font-size: 70px;
+  text-align: center;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+}
+#par{
+  margin-left: 30px;
+  font-size: 26px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 1000px){
+  #par{
+    font-size: 18px;
+  }
+}
+#bosst{
+  height: 100%;;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+#ralpht{
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+#balmaint{
+  height: 100%;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  width: 90%;
+}
+#valentinot{
+  height: 100%;
+  padding-top: 35px;
+  padding-bottom:30px;
+  width: 90%;
+}
+#armanit{
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+#guccit{
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+#paulnsharkt{
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom:33px;
+  width: 90%;
+}
+#calvint{
+  height: 100%;
+  padding-top: 28px;
+  padding-bottom: 15px;
+  width: 90%;
+}
+#parshop{
+  font-size: 20px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-right: 10%;
+}
+@media screen and (max-width: 1040px) {
+  #parshop{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 840px) {
+  #parshop{
+    font-size: 10px;
+  }
+}
+#parfoot{
+  margin-left: 30px;
+  font-size: 18px;
+  color:white;
+  bottom: 0px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#insta{
+  height: 17px;
+  width: auto;
+  padding-left: 10px;
+}
+#FB{
+  height: 20px;
+  width: auto;
+  padding-left: 10px;
+}
+#footer{
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+#sectionone{
+  margin-left:10%;
+  width: 20%;
+  height: 100%;
+  float:left;
+  margin-bottom: 50px;
+}
+#sectiotwo{
+  width: 20%;
+  float:left;
+  height: 100%;
+  margin-bottom: 50px;
+}
+#sectionthree{
+  width: 20%;
+  float:left;
+  height: 100%;
+  margin-bottom: 50px;
+}
+#sectionfour{
+  width: 20%;
+  float:left;
+  height: 100%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+
+/* index page */
+
+
+
+
+
+
+
+
+/* sign in  and sign up*/
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+section .giff{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+section .giff video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+section .contentBx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+
+}
+section .contentBx .formS{
+  width: 50%;
+}
+section .contentBx .formS h2{
+  color: #607d8b;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #ff4584;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+section .contentBx .formS .inputBox{
+  margin-bottom: 20px;
+}
+section .contentBx .formS .inputBox span{
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #607db8;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+section .contentBx .formS .inputBox input{
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #607d8b;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #607d8b;
+  background: transparent;
+  border-radius: 30px;
+}
+section .contentBx .formS .inputBox input[type="submit"]{
+  background: #ff4584;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+section .contentBx .formS .inputBox input[type="submit"]:hover{
+  background: #f53677;
+
+}
+section .contentBx .formS .remember{
+  margin-bottom: 10px;
+  color: #607d8b;
+  font-weight: 400;
+  font-size: 14px;
+}
+section .contentBx .formS .inputBox p{
+  color: #607d8b;
+}
+section .contentBx .formS .inputBox p a{
+  color: #ff4584;
+}
+@media (max-width: 800px) {
+  section .giff{
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+
+  }
+  section .contentBx{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      z-index: 1;
+
+  }
+  section .contentBx .formS{
+      width: 100%;
+      padding: 40px 40px 40px 20px;
+      background: rgba(12, 0, 61, 0.904);
+      margin: 30px;
+  }
+  section .contentBx .formS .inputBox{
+      max-width: 80%;
+  }
+}
+.signinlo{
+  color: white;
+}
+
+/* sign up gif */
+
+section .giff img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.cartBtn{
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 40px;
+  float: right;
+  margin-right: 5px;
+}
+/* cart */
+
+.emptyCart{
+  left: 50%;
+  top: 50%;
+  position:absolute;
+  transform: translateX(-50%) translateY(-30%);
+  width: 400px;
+  height: 400px;
+}

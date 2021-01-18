@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>APEX Retailing|Sign In</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script>
+			$(document).ready(function(){
+			  $("#myInput").on("keyup", function() {
+			    var value = $(this).val().toLowerCase();
+			    $("#myDIV *").filter(function() {
+			      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+			    });
+			  });
+			});
+			</script>
+
+  </head>
+	<body >
+		<div class = "headercontainer">
+			<div id="menu">
+				<a href="index.html" id="index">APEX |</a>
+                <a href="shop.html" id="shop" >Shop |</a>
+                <a href="signIn.html" class="signinlo">Sign In </a>
+				<button class="cartBtn" src="cart.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAsklEQVRIie2SXRWDMBSDK6ESKgEJSJgEJCChDoYEJCABB1TCHAwH2UsO687h54ate9ny2uR+zW2d+8sqvOpaGgAA9cchBLUEDKUAPmsRSkH6lZUpmo4A1ZuAm6VFork50TxazI2p7tPvAdyZCdYbzQxUwoVG03CGOoZ6g3dUV+oAhOzhvME37/m2wgPD7Y4nWpuuhS/C96xlACHpcDSQTg3/irIdR+VMASxSzhRA2Qa/rQe0DunIF6QvBwAAAABJRU5ErkJggg=="/>Cart</button>
+
+				<img src="images/LOGO.png" alt="Logo of the company" id="logo">
+				<input id="myInput" type="text" placeholder="Search..">
+			</div>
+		</div>
+		<div class = "thirheadercontainer">
+		</div>
+		<div class = "secheadercontainer">
+		</div>
+		<div id="myDIV">
+			<section>
+                <div class="giff">
+                    <video  autoplay>
+                        <source src="images/signIn.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="contentBx">
+                    <div class="formS">
+                        <h2>Sign in</h2>
+                        <form >
+                            <div class="inputBox">
+                                <span>Username</span>
+                                <input type="text" name="">
+                            </div>
+                            <div class="inputBox">
+                                <span>Password</span>
+                                <input type="password" name="">
+                            </div>
+                            <div class="remember">
+                                <label><input type="checkbox"> Remember me </label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" value="Sign in" name="">
+                            </div>
+                            <div class="inputBox">
+                                <p>Don't have an account? <a href="signUp.html">Sign up</a></p>
+                            </div>
+                        </form>
+                    </div>
+        
+                </div>
+        
+            </section>
+		</div>
+		<div id="footer">
+			<p id="parfoot" >Follow us on social media<a href="https://www.instagram.com/apexretailing/"><img src="images/insta.png" alt"insta" id="insta"></a>
+			<a href="https://www.facebook.com/Apex-Retailing-109676167469837"><img src="images/fb.png" alt"facbook icon" id="FB"></a> send us an email on: <a href= "mailto:apexretailing@gmail.com">apexretailing@gmail.com</a><p>
+	</div>
+	</body>
+</html>
