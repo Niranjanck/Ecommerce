@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>APEX Retailing</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script>
+			$(document).ready(function(){
+			  $("#myInput").on("keyup", function() {
+			    var value = $(this).val().toLowerCase();
+			    $("#myDIV *").filter(function() {
+			      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+			    });
+			  });
+			});
+			</script>
+
+  </head>
+	<body >
+		<div class = "headercontainer">
+			<div id="menu">
+				<a href="index.html" id="index">APEX |</a>
+				<a href="shop.html" id="shop" >Shop |</a>
+				<a href="signIn.html" class="signinlo">Sign In </a>
+				<button class="cartBtn" src="cart.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAsklEQVRIie2SXRWDMBSDK6ESKgEJSJgEJCChDoYEJCABB1TCHAwH2UsO687h54ate9ny2uR+zW2d+8sqvOpaGgAA9cchBLUEDKUAPmsRSkH6lZUpmo4A1ZuAm6VFork50TxazI2p7tPvAdyZCdYbzQxUwoVG03CGOoZ6g3dUV+oAhOzhvME37/m2wgPD7Y4nWpuuhS/C96xlACHpcDSQTg3/irIdR+VMASxSzhRA2Qa/rQe0DunIF6QvBwAAAABJRU5ErkJggg=="/>Cart</button>
+
+				<img src="images/LOGO.png" alt="Logo of the company" id="logo">
+				<input id="myInput" type="text" placeholder="Search..">
+			</div>
+		</div>
+		<div class = "thirheadercontainer">
+		</div>
+		<div class = "secheadercontainer">
+		</div>
+		<div id="myDIV">
+			<!-- home contents -->
+			<div class="offer">
+				<h2 class="offHead">Sale just got better - Up to 60% off</h2>
+				<p class="offPara"></p>
+			</div>
+
+
+
+			<h1 id="h1"> Welcome to Apex Retailing </h1>
+			<p id="par">At apex retailing we sell the best products at cheap prices. Our products are aimed for ages between 14-25 years.
+			At Apex We sell Cap Guns, Led Strip lights and more. For further information on our producs go on the <a href="shop.html">Shop</a> page.
+			</p>
+		</div>
+		<div id="footer">
+			<p id="parfoot" >Follow us on social media<a href="https://www.instagram.com/apexretailing/"><img src="images/insta.png" alt"insta" id="insta"></a>
+			<a href="https://www.facebook.com/Apex-Retailing-109676167469837"><img src="images/fb.png" alt"facbook icon" id="FB"></a> send us an email on: <a href= "mailto:apexretailing@gmail.com">apexretailing@gmail.com</a><p>
+	</div>
+	</body>
+</html>
